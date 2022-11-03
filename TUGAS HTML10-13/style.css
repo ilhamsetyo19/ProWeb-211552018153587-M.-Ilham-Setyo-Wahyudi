@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+h1{
+  color:blue;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 4px 4px 3px yellow ;
+  font-style: italic;
+  text-transform: uppercase
+  }
+
+ .bt::first-letter {
+      font-size: 60px;
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+.bg-color-text{
+  background-color: yellow;
+}
+
+.blitar{
+  width: 200px;
+}
+
+a:link{
+  color:red;
+}
+
+a:hover{
+  color:blue;
+}
+
+a:visited{
+  color:purple;
+}
+
+a:active{
+  color:black
+}
+
+p{
+  font-size: 20px;
+  font-family:'Quicksand';
+  text-align: justify;
+  line-height: 1.5;
+  text-indent:2em
+}
